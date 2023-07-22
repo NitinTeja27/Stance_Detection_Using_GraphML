@@ -1,0 +1,63 @@
+Iran_Deal Train:  2451 Test:  850
+2451
+(1536,) (1536,)
+2451 2451 850 850
+lables :  {'Support': 1001, 'Denial': 1450}
+lables :  {'Support': 1450, 'Denial': 1450}
+ Balanced train:  2900 2451
+              precision    recall  f1-score   support
+
+      Denial       0.70      0.76      0.73       442
+     Support       0.71      0.65      0.68       408
+
+    accuracy                           0.70       850
+   macro avg       0.70      0.70      0.70       850
+weighted avg       0.70      0.70      0.70       850
+
+General_Terms Train:  2292 Test:  1009
+2292
+(1536,) (1536,)
+2292 2292 1009 1009
+lables :  {'Support': 992, 'Denial': 1300}
+lables :  {'Support': 1300, 'Denial': 1300}
+ Balanced train:  2600 2292
+              precision    recall  f1-score   support
+
+      Denial       0.74      0.74      0.74       592
+     Support       0.63      0.63      0.63       417
+
+    accuracy                           0.70      1009
+   macro avg       0.69      0.69      0.69      1009
+weighted avg       0.70      0.70      0.70      1009
+
+Santa_Fe_Shooting Train:  2392 Test:  909
+2392
+(1536,) (1536,)
+2392 2392 909 909
+lables :  {'Denial': 1325, 'Support': 1067}
+lables :  {'Support': 1325, 'Denial': 1325}
+ Balanced train:  2650 2392
+              precision    recall  f1-score   support
+
+      Denial       0.90      0.57      0.70       567
+     Support       0.56      0.89      0.69       342
+
+    accuracy                           0.69       909
+   macro avg       0.73      0.73      0.69       909
+weighted avg       0.77      0.69      0.69       909
+
+Student_Marches Train:  2768 Test:  533
+2768
+(1536,) (1536,)
+2768 2768 533 533
+lables :  {'Support': 1167, 'Denial': 1601}
+lables :  {'Support': 1601, 'Denial': 1601}
+ Balanced train:  3202 2768
+              precision    recall  f1-score   support
+
+      Denial       0.79      0.80      0.80       291
+     Support       0.76      0.74      0.75       242
+
+    accuracy                           0.77       533
+   macro avg       0.77      0.77      0.77       533
+weighted avg       0.77      0.77      0.77       533
