@@ -1,1 +1,46 @@
 # ISB Research
+
+F1 Scores of Events
+-----------
+The following results have been obtained through our work.
+
+### Event: Iran Deal
+
+| Graph                     | Algorithm   | Denial | Support | Accuracy | Macro Avg | Weighted Avg |
+| ------------------------- | ----------- | ------ | ------- | -------- | --------- | ------------ |
+| Hashtags Graph            | GCN         | 0.67   | 0.75    | 0.72     | 0.71      | 0.71         |
+| Hashtags Graph            | Cluster GCN | 0.72   | 0.72    | 0.72     | 0.72      | 0.72         |
+| Hashtags Graph            | Node2Vec    | 0.73   | 0.74    | 0.73     | 0.73      | 0.73         |
+| Similarity Graph          | Node2Vec    | 0.69   | 0.73    | 0.71     | 0.71      | 0.71         |
+| Hashtags + Retweets Graph | GCN         | 0.72   | 0.71    | 0.72     | 0.72      | 0.72         |
+
+### Event: Student Marches
+
+| Graph                     | Algorithm   | Denial | Support | Accuracy | Macro Avg | Weighted Avg |
+| ------------------------- | ----------- | ------ | ------- | -------- | --------- | ------------ |
+| Hashtags Graph            | GCN         | 0.74   | 0.77    | 0.76     | 0.76      | 0.76         |
+| Hashtags Graph            | Cluster GCN | 0.79   | 0.75    | 0.77     | 0.77      | 0.77         |
+| Hashtags Graph            | Node2Vec    | 0.80   | 0.76    | 0.78     | 0.78      | 0.78         |
+| Similarity Graph          | Node2Vec    | 0.38   | 0.68    | 0.58     | 0.53      | 0.52         |
+| Hashtags + Retweets Graph | GCN         | 0.79   | 0.74    | 0.76     | 0.76      | 0.76         |
+
+### Event: Santa Fe Shooting
+
+| Graph                     | Algorithm   | Denial | Support | Accuracy | Macro Avg | Weighted Avg |
+| ------------------------- | ----------- | ------ | ------- | -------- | --------- | ------------ |
+| Hashtags Graph            | GCN         | 0.75   | 0.70    | 0.73     | 0.73      | 0.73         |
+| Hashtags Graph            | Cluster GCN | 0.61   | 0.66    | 0.64     | 0.64      | 0.63         |
+| Hashtags Graph            | Node2Vec    | 0.79   | 0.69    | 0.75     | 0.74      | 0.75         |
+| Similarity Graph          | Node2Vec    | 0.46   | 0.62    | 0.55     | 0.54      | 0.52         |
+| Hashtags + Retweets Graph | GCN         | 0.81   | 0.68    | 0.76     | 0.74      | 0.76         |
+
+### Event: General Terms
+
+| Graph                     | Algorithm   | Denial | Support | Accuracy | Macro Avg | Weighted Avg |
+| ------------------------- | ----------- | ------ | ------- | -------- | --------- | ------------ |
+| Hashtags Graph            | GCN         | 0.74   | 0.67    | 0.71     | 0.70      | 0.71         |
+| Hashtags Graph            | Cluster GCN | 0.73   | 0.65    | 0.70     | 0.69      | 0.70         |
+| Hashtags Graph            | Node2Vec    | 0.69   | 0.68    | 0.68     | 0.68      | 0.68         |
+| Similarity Graph          | Node2Vec    | 0.61   | 0.67    | 0.64     | 0.64      | 0.64         |
+| Hashtags + Retweets Graph | GCN         | 0.72   | 0.67    | 0.69     | 0.69      | 0.70         |
+
